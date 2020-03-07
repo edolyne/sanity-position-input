@@ -2,12 +2,6 @@
 
 Position input for [Sanity](https://sanity.io/) that stores selected position.
 
-## Installation
-
-```
-sanity install @sanity/color-input
-```
-
 ## Usage
 
 Use it in your schema types:
