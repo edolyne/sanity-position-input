@@ -1,0 +1,16 @@
+{
+  "parts": [
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./src/schema/index.js"
+    },
+    {
+      "name": "part:@sanity/base/components/position",
+      "description": "React component which provides a position select"
+    },
+    {
+      "implements": "part:@sanity/base/components/position",
+      "path": "./src/components/input.js"
+    }
+  ]
+}

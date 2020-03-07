@@ -1,0 +1,14 @@
+{
+  "name": "sanity-position-input",
+  "version": "1.0.0",
+  "description": "Position input for Sanity.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edolyne Long <hi@edolyne.com>",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.0.1"
+  }
+}
