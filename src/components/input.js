@@ -56,17 +56,13 @@ const AlignmentButton = styled.button`
   }
 `
 
-export default class PositionInput extends React.Component {
-
-  static propTypes = {
-    value: PropTypes.number,
-  }
+class PositionInput extends React.Component {
 
   constructor(props) {
     super(props)
   }
 
-  handleChange = value => {
+  handleChange(value) {
     const patch = value === '' ? unset() : set(value)
     this.props.onChange(PatchEvent.from(patch))
   }
@@ -132,3 +128,9 @@ export default class PositionInput extends React.Component {
     )
   }
 }
+
+PositionInput.propTypes = {
+  value: PropTypes.string,
+};
+
+export default PositionInput;

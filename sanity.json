@@ -1,8 +1,12 @@
 {
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
   "parts": [
     {
       "implements": "part:@sanity/base/schema-type",
-      "path": "./src/schema/index.js"
+      "path": "./lib/schema/index.js"
     },
     {
       "name": "part:@sanity/base/components/position",
@@ -10,7 +14,7 @@
     },
     {
       "implements": "part:@sanity/base/components/position",
-      "path": "./src/components/input.js"
+      "path": "./lib/components/input.js"
     }
   ]
 }
